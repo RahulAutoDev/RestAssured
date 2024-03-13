@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.org.requests.TC_003_PUT_Request">
+        <methods>
+          <include name="validate_Put_Request"/>
+        </methods>
+      </class> <!-- com.org.requests.TC_003_PUT_Request -->
+      <class name="com.org.requests.T001_Get_Request">
+        <methods>
+          <include name="GetRequestDetails"/>
+          <include name="validate_GetRequestById"/>
+          <include name="GenerateExtendReport"/>
+          <include name="SaveExtentReport"/>
+        </methods>
+      </class> <!-- com.org.requests.T001_Get_Request -->
+      <class name="com.org.requests.TC004_Delete_Request">
+        <methods>
+          <include name="validate_Delete_Request"/>
+        </methods>
+      </class> <!-- com.org.requests.TC004_Delete_Request -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
