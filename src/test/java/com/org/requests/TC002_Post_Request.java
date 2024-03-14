@@ -25,6 +25,7 @@ public class TC002_Post_Request {
 		String responseBody = response.getBody().asString();
 		System.out.println(responseBody);
 		int code = response.getStatusCode();
+		System.out.println(response.getClass());
 		System.out.println(code); 
 		System.out.println(response.jsonPath().get("name"));
 		//Assert.assertEquals(response.jsonPath().get("name"), "ABC");
